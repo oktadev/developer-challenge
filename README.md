@@ -24,13 +24,13 @@ done, log into the Okta developer dashboard and then move onto the next step.
 Run the following command to clone this repo locally:
 
 ```bash
-git clone https://github.com/oktadeveloper/challenge.git
+git clone https://github.com/oktadeveloper/developer-challenge.git
 ```
 
-Then enter the `challenge` project directory:
+Then enter the `developer-challenge` project directory:
 
 ```bash
-cd challenge
+cd developer-challenge
 ```
 
 
@@ -44,7 +44,7 @@ lot of stuff.
 
 ### Create an Okta Application
 
-![Okta Create Application](https://raw.githubusercontent.com/oktadeveloper/challenge/master/assets/okta-create-app.gif)
+![Okta Create Application](https://raw.githubusercontent.com/oktadeveloper/developer-challenge/master/assets/okta-create-app.gif)
 
 When you use Okta to manage users for your applications, the first thing you
 need to do is tell Okta what application it will be storing users for.
@@ -67,7 +67,7 @@ will need this soon!
 
 ### Copy Your Okta Org URL
 
-![Okta Org URL](https://raw.githubusercontent.com/oktadeveloper/challenge/master/assets/okta-org-url.gif)
+![Okta Org URL](https://raw.githubusercontent.com/oktadeveloper/developer-challenge/master/assets/okta-org-url.gif)
 
 When you signed up for Okta you created a private "organization" that will hold
 and store all of your application's users. Each org has a specific URL, and when
@@ -120,7 +120,7 @@ Make sure you check the boxes next to the **CORS** and **Redirect** boxes.
 
 ## Step 5: Run the Web App
 
-![Run the App](https://raw.githubusercontent.com/oktadeveloper/challenge/master/assets/run-the-app.gif)
+![Run the App](https://raw.githubusercontent.com/oktadeveloper/developer-challenge/master/assets/run-the-app.gif)
 
 You've now got everything working, or at least it should be! Let's test it out!
 If this works, you're good to go and can go claim your prize.
