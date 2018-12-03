@@ -1,0 +1,26 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #253340;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #007AB7;
+}
+
+h1 span {
+  color: #E1863B;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.button-holder {
+  padding-top: 2em;
+  text-align: center;
+}

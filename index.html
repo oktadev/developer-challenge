@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <html>
+    <script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.13.0/js/okta-sign-in.min.js" type="text/javascript"></script>
+    <link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.13.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.13.0/css/okta-theme.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet"/>
+    <title>Okta Developer Challenge</title>
+  </html>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Okta <span>Developer Challenge</span></h1>
+      <div class="jumbotron">
+        <p>Thanks for participating in Okta's developer challenge, and congrats for getting this far! <b>&gt;:D</b> Now that you've got your static site running, all you need to do is sign into your Okta account below to complete the challenge.</p>
+        <p>If for some reason you aren't able to log in below, please <a href="https://github.com/oktadeveloper/challenge">revisit the challenge instructions</a> and make sure you've properly set all the necessary Okta variables.</p>
+        <p><b>PS</b>: Did you know that using Okta to manage your user accounts and user login, registration, etc., can be <i>really easy and cheap</i>? Check out our <a href="https://developer.okta.com">developer site</a> to learn more!</p>
+        <div class="button-holder">
+          <button id="signin-button" type="button" class="btn btn-lg btn-primary" onclick="renderSignIn('#signin-container')">Sign In</button>
+        </div>
+        <div id="signin-container"></div>
+        <div id="congrats" class="alert alert-success d-none" role="alert">
+          <p><b>Congratulations!</b> You have completed the challenge! Please visit the Okta booth in the sponsor hall to claim your prize! You will be asked for your email address <b>(<span id="email"></span>)</b> to confirm your completion.</p>
+        </div>
+      </div>
+    </div>
+    <script src="/static/js/sign-in.js" type="text/javascript"></script>
+  </body>
+</html>
