@@ -1,4 +1,4 @@
-# challenge
+# developer-challenge
 
 **Thanks for checking out our developer challenge!**
 
